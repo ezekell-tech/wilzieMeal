@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  .nav-bar {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: #004080;
+    width: 100%;
+    flex-direction: column;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-bar.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .logoname {
+    font-size: 1.2rem;
+  }
+
+  .nav-bar nav ul a {
+    padding: 8px;
+  }
+}
